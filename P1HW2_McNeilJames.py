@@ -1,4 +1,4 @@
-mmmMmmmMMMm# James McNeil
+# James McNeil
 # 9/7/24
 # P1HW2
 # Budgeting Traveling Expenses
