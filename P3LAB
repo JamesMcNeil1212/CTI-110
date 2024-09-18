@@ -1,0 +1,17 @@
+# James McNeil
+# 9/18/24
+# P3LAB1
+# Calculate coins needed for change
+
+#Floor Division // Gives you back the whole number from division
+
+# Modules % Gives you back the remainder from division
+
+
+#Get amount of money
+amount= float(input("Enter the amount of money as a float: "))
+print(amount)
+
+# Convert value to integer. Remember last two digits are still change
+int_amount = int(amount * 100)
+print(int_amount)
