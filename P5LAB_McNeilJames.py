@@ -85,10 +85,12 @@ def main():
    # Calculate change owed
    change_owed = amount_paid - total_owed
    print(f"Change owed to customer: ${change_owed:.2f}")
+   print()
 
+   # Call the disperse_change function
+   disperse_change(change_owed)
 
    
 # Call the main function to run the program
 if __name__ == "__main__":
     main()
-
