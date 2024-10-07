@@ -23,13 +23,15 @@ def create_character():
 
 def display_characters(char_list):
     for char in char_list:
-        print(char)
+        for key, value in char.items():
+            print(f'{key}: {value}')
         print()
 
         
 
 def attack_hero(attacker, victim):
-    print(f"{attacker['hero_name']} is attacking {victim['hero_name']} ")
+    print()
+    print(f"****{attacker['hero_name']} is attacking {victim['hero_name']}**** ")
     print()
     # Define how much to transfer (you can adjust these values)
     strength_transfer = 1  # Amount to transfer from victim's strength
@@ -51,6 +53,7 @@ def attack_hero(attacker, victim):
         attacker['super_speed'] = 'medium'
     elif attacker['super_speed'] == 'medium':
         attacker['super_speed'] = 'high'
+
 
     return attacker, victim
 
